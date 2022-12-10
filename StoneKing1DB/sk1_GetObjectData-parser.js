@@ -16,6 +16,13 @@ var item = []
 
 // AS2 Stone King globals
 var _fps = 40;
+
+/**
+ * Returns a Loot object easy to export to MSSQL server.
+ * @param {string} lootName The item name for the loot.
+ * @param {number} lootChance The percent changes to obtain the loot.
+ * @returns {object} The LootObject
+ */
 var Loot = function(lootName, lootChance) { return {lootName, lootChance} }
 var random = function( randomNumber ) { return `+random${randomNumber}`} // Parse output as string to display what the game will do.
 
