@@ -19,11 +19,19 @@ var _fps = 40;
 
 /**
  * Returns a Loot object easy to export to MSSQL server.
- * @param {string} lootName The item name for the loot.
- * @param {number} lootChance The percent changes to obtain the loot.
+ * 
+ * @param {string} lootName - The item name for the loot.
+ * @param {number} lootChance - The percent changes to obtain the loot.
  * @returns {object} The LootObject
  */
 var Loot = function(lootName, lootChance) { return {lootName, lootChance} }
+
+/**
+ * Displays a string of what the random range will be (as calculated on run-time by game.)
+ * 
+ * @param {number} randomNumber - The maximum the random number may be.
+ * @returns {string} The resulting paraphrase of randomness (range).
+ */
 var random = function( randomNumber ) { return `+random${randomNumber}`} // Parse output as string to display what the game will do.
 
 /**
