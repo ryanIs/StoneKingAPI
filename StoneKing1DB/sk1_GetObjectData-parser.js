@@ -15,6 +15,7 @@ var quest = []
 var item = []
 
 // AS2 Stone King globals
+// _fps controls the current frame rate.
 var _fps = 40;
 
 /**
