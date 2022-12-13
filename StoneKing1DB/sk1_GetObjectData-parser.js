@@ -9,10 +9,10 @@
 var myObjectData;
 
 // JSON objects which will be used to generate SQL tables & models.
-var ability = []
-var npc = []
-var quest = []
-var item = []
+var ability = [] // objects that will be placed in the Ability data model.
+var npc = []     //  objects that will be placed in the NPC data model.
+var quest = []   //  objects that will be placed in the Quest data model.
+var item = []    //  objects that will be placed in the Item data model.
 
 // AS2 Stone King globals
 // _fps controls the current frame rate.
